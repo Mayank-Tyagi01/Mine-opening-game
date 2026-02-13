@@ -1,0 +1,18 @@
+.square-item{
+    width: 90px;
+    height:90px ;
+    background-color: aquamarine;
+     transition: transform 0.3s ease;
+}
+.square-item:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.d-grid{
+    display: grid;
+    grid-template-columns:repeat(5,100px) ;
+    row-gap: 10px;
+    column-gap: 10px;
+}

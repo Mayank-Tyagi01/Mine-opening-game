@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body{
+
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  background-color: rgb(146, 143, 143);
+}
+
+.totalscore{
+font-size: 60px;
+color: gold;
+}
+.totalscore p{
+  margin: 0;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.gap-10{
+  gap: 120px;
+}
+
